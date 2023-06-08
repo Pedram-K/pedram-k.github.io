@@ -1,0 +1,154 @@
+*{
+	box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background: linear-gradient(to bottom right, #FA8128, #D67229);
+}
+
+.fluff{
+	font-family: Impact;
+	font-size: 5vh;
+	text-align: right;
+	transform: translateX(-5%);
+	position: relative;
+	right: 2vw;
+}
+
+#video{
+	left: 2vw;
+	position: relative;
+	top:30vh;
+}
+
+.intro{
+	font-family: cursive;
+	font-size: 2vh;
+	position: relative;
+	top: -28vh;
+	left: 35vw;
+}
+
+.bottom{
+	position: relative;
+	top: 6vh;
+	font-family: calibri;
+	font-size: 2vh;
+	font-weight: bold;
+	opacity: 0.5;
+	z-index: 1000;
+}
+
+#left{
+	position: relative;
+	left: 3vw;
+}
+
+#right{
+	position: relative;
+	left: 72vw;
+}
+
+.translucent{
+	opacity: 0.5;
+}
+
+#face{
+	position: relative;
+	top: 3vh;
+	left: 3vw;
+}
+
+#name{
+	position: relative;
+	top: 1.5vh;
+	left: 5vw;
+	font-family: garamond;
+	font-size: 2.1vh;
+	font-style: italic;
+}
+
+header{
+	position: static;
+}
+
+footer{
+	position: static;
+}
+
+.button{
+	padding: 1.5vh;
+	border: 2px solid black;
+	border-radius: 18%;
+	background-color: #FFC1CC;
+	position: relative;
+	left: 13vw;
+	top: 1.5vh;
+}
+
+.button:hover{
+	background-color: #FF007F;
+}
+
+#home{
+	position: relative;
+	left: 12vw;
+}
+
+#proposal{
+	position: relative;
+	left: 18vw;
+}
+
+#journal{
+	position: relative;
+	left: 24vw;
+}
+
+#notes{
+	position: relative;
+	left: 30vw;
+}
+
+#projects{
+	position: relative;
+	left: 36vw;
+}
+
+.proposal, .journal, .notes{
+	width: 33vw;
+	height: 65vh;
+	position: relative;
+	top: 5vh;
+}
+
+#page1, #htmlnotes{
+	position:relative;
+	left: 10vw;
+}
+
+#page2, #cssnotes{
+	position: relative;
+	left: 20vw;
+}
+
+.journal{
+	position: relative;
+	left: 33vw;
+}
+
+a.project{
+	position: relative;
+	left: 44vw;
+	top: 7vh;
+}
